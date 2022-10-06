@@ -1,2 +1,2 @@
 # MyTicTacToe
-A very simple tic tac toe game written in Java.
+A calculator application written in java that includes a user interface and is compiled with maven.
