@@ -126,7 +126,6 @@ public class MainMenu implements ActionListener {
                 return;
             }
 
-            Program.getDebug().print("Success, attempting to launch game!");
             frame.dispose();
 
             Player player1 = new Player(player1TextField.getText());

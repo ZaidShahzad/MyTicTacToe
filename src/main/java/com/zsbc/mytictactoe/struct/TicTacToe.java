@@ -2,7 +2,6 @@ package com.zsbc.mytictactoe.struct;
 
 import com.zsbc.mytictactoe.Program;
 import com.zsbc.mytictactoe.enums.Icon;
-import com.zsbc.zsbcutils.Debug;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -286,7 +285,6 @@ public class TicTacToe implements ActionListener {
                     wonOrDraw = true;
                     resetTimer();
                     player.addScore(1);
-                    Program.getDebug().print(player.getIcon().getName() + " has won! (Score: " + player.getScore() + ")");
                     announcementText.setForeground(player.getIcon().getColor());
                     announcementText.setText(player.getName() + " (" + player.getIcon().getName() + ") has won! (Score: " + player.getScore() + ")");
                     for (int j = 1; j <= 9; j++) {
