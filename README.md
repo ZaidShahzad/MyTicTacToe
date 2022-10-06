@@ -1,2 +1,2 @@
 # MyTicTacToe
-A calculator application written in java that includes a user interface and is compiled with maven.
+A tictactoe game with a built in user interface, custom settings, and is compiled with maven.
